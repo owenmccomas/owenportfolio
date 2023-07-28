@@ -14,7 +14,7 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
             <Link
-              href={siteConfig.links.github}
+              href={"https://www.github.com/owenmccomas"}
               target="_blank"
               rel="noreferrer"
             >
@@ -29,7 +29,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.twitter}
+              href={"https://www.linkedin.com/in/owenmccomas/"}
               target="_blank"
               rel="noreferrer"
             >
@@ -39,7 +39,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.twitter className="h-5 w-5 fill-current" />
+                <Icons.linkedin className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
