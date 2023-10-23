@@ -32,7 +32,7 @@ export default function ProjectCards() {
             <div className="">
               <Button variant={"outline"}>
                 <a
-                  href="https://ydaag-better.vercel.app/"
+                  href="https://ydaag.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
